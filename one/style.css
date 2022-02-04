@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=VT323&display=swap');
+body{
+    background-color: #222222;
+    font-family: 'VT323', monospace;
+    font-size: 34px;
+    color: white;
+}
+div {
+    text-align: right;
+    width: 60%;
+    margin :5% auto 0px auto;
+    background-color: rgb(66, 68, 77);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    padding: 5%;
+}
+div table{
+    width: 100%;
+    margin:auto;
+}
+div p {
+    text-align: right;
+}
+.out{
+    text-align: left;
+}
+div input{
+    border:none;
+    border-radius: 5px;
+    background-color: black;
+    width:100%;
+    height:50px;
+    color:lime;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    padding: 1%;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+}
+div button{
+    border:outset 8px gray;
+    border-radius: 0px;
+    background-color: gray;
+    width:100%;
+    height:50px;
+    color:#222222;
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 1%;
+    display: block;
+}
+div button:active{
+    border:ridge 8px gray;
+    padding-top:2%;
+}

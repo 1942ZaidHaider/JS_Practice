@@ -1,0 +1,30 @@
+#main {
+  background-color: lightgray;
+  width: 30%;
+  padding: 2%;
+  text-align: left;
+  margin: auto;
+  margin-top: 10%;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px darkgray;
+}
+input{
+    margin:5%;
+}
+#inp {    
+    width:auto;
+}
+.opt{
+    display: block;
+    text-align: left;
+    width: auto;
+}
+#out{
+    border-radius: 10px;
+    background-color: white;
+    padding: 2%;
+}
+button{
+    padding: 2%;
+}
